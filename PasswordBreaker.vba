@@ -7,7 +7,7 @@ Sub PasswordBreaker()
     Dim i1 As Integer, i2 As Integer, i3 As Integer
     Dim i4 As Integer, i5 As Integer, i6 As Integer
     On Error Resume Next
-    'if pass 1 car -> max 45sec (with lenovo 8gb ram) if you have better computer you can even solv with better delay)
+    'if pass 1 car
     For i = 32 To 126
         ActiveSheet.Unprotect Chr(i)
         If ActiveSheet.ProtectContents = False Then
@@ -15,7 +15,7 @@ Sub PasswordBreaker()
             Exit Sub
         End If
     Next
-    'if pass 2 car -> max 30min
+    'if pass 2 car
     For i = 32 To 126
         For j = 32 To 126
             ActiveSheet.Unprotect Chr(i) & Chr(j)
@@ -25,7 +25,7 @@ Sub PasswordBreaker()
             End If
         Next
     Next
-    'if pass 3 car -> max 25hours
+    'if pass 3 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -37,7 +37,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 4 car -> max 48days
+    'if pass 4 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -51,7 +51,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 5 car -> max 6years
+    'if pass 5 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -67,7 +67,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 6 car -> max 274years
+    'if pass 6 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -85,7 +85,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 7 car -> max 12648years
+    'if pass 7 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -105,7 +105,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 8 car -> max 581 833 years
+    'if pass 8 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -127,7 +127,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 9 car -> max 26.7 millions years
+    'if pass 9 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -151,7 +151,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 10 car -> max 1.23 billion years
+    'if pass 10 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -177,7 +177,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 11 car -> max 56.6 billions years
+    'if pass 11 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
@@ -205,7 +205,7 @@ Sub PasswordBreaker()
             Next
         Next
     Next
-    'if pass 12 car -> max 2605 billions years
+    'if pass 12 car
     For i = 32 To 126
         For j = 32 To 126
             For k = 32 To 126
